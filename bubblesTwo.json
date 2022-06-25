@@ -1,0 +1,2531 @@
+[
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "1.5K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "232094.3865",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2597385.561",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.824707",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.479441",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "亞太電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "2K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "231771.4664",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2597194.378",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.821548",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.477711",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "亞太電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "2.5K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "231500.9766",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2597112.768",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.818901",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.476971",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "亞太電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "3K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "231081.6457",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2597105.883",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.814796",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.476904",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "亞太電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "5.1K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "229336.5352",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2596965.268",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.797714",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.475613",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣之星",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "5.45K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "229021.7726",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2597010.453",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.79463200000001",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.476017",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "6K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "229014.2763",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2596696.847",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.794563",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.473185",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "入口0K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "南投縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "232660.7855",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2597898.938",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.830246",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.484083",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "遠傳電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣大哥大",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "台灣之星",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "特富野古道",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Place",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "6.3K",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "county",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "嘉義縣",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_X",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "228936.0352",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWD97_Y",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "2596488.214",
+                  "size": "sm",
+                  "flex": 1,
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_東經",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "120.7938",
+                  "flex": 1,
+                  "color": "#666666",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "WGS84_北緯",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "23.4713",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "電信",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                }
+              ],
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "CHT",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "中華電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "FET",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "遠傳電信",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "TWM",
+                  "size": "sm",
+                  "color": "#aaaaaa"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "T-STAR",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#666666"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "APT",
+                  "color": "#aaaaaa",
+                  "size": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "沒有通訊支援",
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 1
+                }
+              ]
+            }
+          ],
+          "flex": 1
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "山難緊急救援專線  119、112",
+          "margin": "sm",
+          "size": "sm",
+          "color": "#aaaaaa",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  }
+]

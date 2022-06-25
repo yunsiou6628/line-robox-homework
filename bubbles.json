@@ -1,0 +1,79 @@
+[
+  {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://recreation.forest.gov.tw/Files/Forest/index/0300001.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "http://linecorp.com/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "text",
+          "text": "武陵國家森林遊樂區",
+          "wrap": true,
+          "weight": "bold",
+          "gravity": "center",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "台中市和平區武陵路3號",
+              "flex": 4,
+              "size": "sm",
+              "color": "#666666",
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "Open time",
+              "flex": 2,
+              "size": "sm",
+              "color": "#aaaaaa",
+              "align": "start",
+              "margin": "xxl"
+            },
+            {
+              "type": "text",
+              "text": "24小時開放(配合武陵農場)",
+              "flex": 4,
+              "size": "sm",
+              "color": "#666666",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "➤ 點我進官網 ➤",
+                "uri": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0300001"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

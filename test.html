@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // ------------------------ includes 測試 ------------------------------------------------------------------------------
+    let str = "  Hello World "
+
+    // 是否有包含指定文字，回傳 true 或 false
+    let hello = "Hello, welcome to the world of Javascript";
+
+    // .includes(文字)
+    let strIncludesJS = str.includes("Javascript");
+    let strIncludesJS2 = str.includes(" Hello ");
+
+    // 沒有 Javascript 指定文字 => console.log = false
+    // console.log(strIncludesJS);
+    // console.log(str.includes("Javascript"));
+
+    // str 內容的字，就會被判斷有沒有包含在內容中 => console.log = true
+    // console.log(strIncludesJS2);
+
+
+    str.includes(" Hello ")
+    // (data.courses[0].RA_name).includes(event.message.text)
+    // data.courses[0].RA_name => 太平山森林遊樂區
+    // data.courses[1.2.3....跑回圈或其他方式].RA_name => 其他森林遊樂區
+    // includes(event.message.text) => 使用者輸入是否包含在 太平山森林遊樂區 字串內容中
+
+
+
+    const array = [1, 2, 3]
+    // forEach 很像迴圈 會跑過陣列裡面所有值
+    // .forEach 必須使用索引才能修改陣列內容
+    // 有效
+    array.forEach((value, index, arr) => {
+      array[index] = 4
+      // array[index] = 4 => 改 valu 值 [1, 2, 3] ，更改為 [4,4,4]
+    })
+
+    array.forEach((value, i, arr) => {
+      array[i] = 5
+    })
+    // console.log(array)
+
+    // 迴圈
+    // value 代表處理中的值，必須
+    // index 代表處理中的索引 i 
+    // arr 代表陣列本身
+    array.forEach((value, index, arr) => {
+      // console.log(value, index, arr)
+    })
+
+    // ----------------------------- 寫成國家森林遊戲區 測試 -----------------------------------------------------------------------
+
+    // data 裡面資料
+    // 連接到 JSON 檔
+
+    // 國家森林遊樂區
+    const courses = [
+      {
+        "RA_ALT": "350 - 2000",
+        "OPEN_TIME": "因應新冠肺炎防疫措施，調整開園時間平日為6:00-18:00、假日為04:00-18:00(建議16:00前購票入園)",
+        "CLOSE_TIME": "",
+        "OPEN_TIME_NOTE": "各據點營業時間：鳩之澤溫泉：08:00-18:00、中間遊客中心：08:00-17:00、太平山莊：08:00-21:00、翠峰山屋：08:00-20:00 ",
+        "RA_AREA": 12930.000,
+        "X": "300599",
+        "Y": "2716855",
+        "ADDRESS": "267臺灣宜蘭縣大同鄉太平巷58之1號",
+        "EMAIL": null,
+        "FB_URL": "https://www.facebook.com/tps100.forest",
+        "TYP": "0",
+        "TYP_ID": "0100001",
+        "RA_name": "太平山國家森林遊樂區",
+        "RA_COPY": "蹦蹦車、溫泉、高山湖泊、巨木森林與國寶山毛櫸，鋪成了太平山國家森林遊樂區超過百年歷史的綿長軌跡。\n\n海拔1950公尺的太平山，是僅次於阿里山的林業傳奇，1915年日本人開始這裡的伐木事業，後來由國民政府接手，成為台灣最大的林場，最後在1983年轉型為遊樂區，留下見晴鐵道、蹦蹦車等珍貴的遺跡。\n\n太平山舊稱「眠腦」，是泰雅族語「鬱鬱蒼蒼」之意，人們可以漫步在鎮安宮後的原始林間，讓思緒翱翔在過往巨木滿山的年代。沿著時常遇見台灣獼猴、帝雉等動物的翠峰林道行駛，終點是台灣最大高山湖泊：海拔1840公尺的翠峰湖，對岸是國寶台灣山毛櫸的家，秋天可以沿著4公里的步道欣賞滿山金黃。\n\n收費站不遠處的鳩之澤溫泉，是聞名遐邇的碳酸泉，也是這裏的一大特色。太平山國家森林遊樂區，絕對是喜歡大自然的你，拜訪宜蘭的第一選擇。",
+        "ADMIN_Name": "宜蘭縣大同鄉",
+        "DEP_NAME": "羅東林區管理處",
+        "PHONE": "總機,03-9809805;售票站,03-9809619;太平山莊,03-9809806;翠峰山屋,0963-357199;鳩之澤溫泉,03-9809603;中間遊客中心,0910-935132",
+        "EMER_PHONE": "羅東林管理處03-9545114#242~246",
+        "URL": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0100001"
+      },
+      {
+        "RA_ALT": "300 - 1700",
+        "OPEN_TIME": "非假日：08:00-17:00、假日：07:00-17:00 （園區僅除夕休園一日）",
+        "CLOSE_TIME": "",
+        "OPEN_TIME_NOTE": "非假日：08:30-17:00、假日：08:00-17:00 （遊客中心，周二休館）\n",
+        "RA_AREA": 1438.660,
+        "X": "294938",
+        "Y": "2747108",
+        "ADDRESS": "237新北市三峽區有木里174-1號",
+        "EMAIL": null,
+        "FB_URL": "https://www.facebook.com/ManyueyuanNationalForest/",
+        "TYP": "0",
+        "TYP_ID": "0200001",
+        "RA_name": "滿月圓國家森林遊樂區",
+        "RA_COPY": "在三峽大豹溪的上游，一條叫做蚋子溪的支流上，座落著一個擁有瀑布、生態與楓紅的美麗小天地：滿月圓國家森林遊樂區。\n\n距離三峽市區約40分鐘的滿月圓國家森林遊樂區，海拔在300至1700公尺之間，終年潮濕涼爽，孕育了豐富的蕨類生態，連對環境要求高的「團扇蕨」都可以找到。過去這裡曾有小規模的伐木，今日整齊的人造林見證了那段歲月。\n\n這裡有豐富的鳥類與兩棲、蝴蝶生態，像是少見的白喉笑鶇、赤腹山雀等，都是滿月圓重要的鳥明星喔！而每年12月左右，這裏的楓紅也美的動人，有「台灣最美低海拔楓紅」的美譽。\n\n位於健行步道盡頭的滿月圓瀑布與處女瀑布，也是遊樂區的兩大美景，從滿月小橋上望去，只見一垂高十餘公尺之大石壁遮掩滿月圓瀑布上端，瀑布直沖而下，聲勢極為壯麗，處女瀑布則較為溫柔婉約，在陽光普照之日，光影在水瀑間折射變化，時常可見瀑布有著虹彩般的絢麗。",
+        "ADMIN_Name": "新北市三峽區",
+        "DEP_NAME": "新竹林區管理處",
+        "PHONE": "02-26720004（管理站）02-26720542（遊客中心，周二休館）",
+        "EMER_PHONE": "02-26720004,03-522-4163 ext.261",
+        "URL": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0200001"
+      },
+      {
+        "RA_ALT": "230 - 800",
+        "OPEN_TIME": "非假日08:00-17:00   例假日07:00-17:00",
+        "CLOSE_TIME": "",
+        "OPEN_TIME_NOTE": "休除夕一天",
+        "RA_AREA": 1191.340,
+        "X": "303180",
+        "Y": "2747541",
+        "ADDRESS": "新北市烏來區信賢里娃娃谷46號",
+        "EMAIL": null,
+        "FB_URL": "",
+        "TYP": "0",
+        "TYP_ID": "0200002",
+        "RA_name": "內洞國家森林遊樂區",
+        "RA_COPY": "瀑聲隆隆，依山傍水的蕨類樂園，小巧精緻的內洞國家森林遊樂區，是南勢溪上游一個享受寧靜與綠意的好所在。\n\n距新店約50分鐘，內洞可說是大台北地區交通最方便的國家森林遊樂區，海拔在230~800公尺之間，被內洞溪流貫，潮濕而溫暖，是名副其實的蕨類樂園：光觀瀑步道的短短數百公尺，就能發現將近65種蕨類，包括稀有的垂枝馬尾杉與藤蕨等，都是大樹身上附生的嬌客。而這裡舊稱「娃娃谷」，相傳是因為蛙類眾多，在夜裡暢鳴的聲響迴盪山谷而得，步道旁的水溝就有機會見到青蛙的身影喔！\n\n內洞瀑布是遊樂區的主角，在觀瀑步道終點，有著二層不同的風貌帶給遊人們多元享受，與暢快的負離子芬芳。炎炎夏日，不妨從悶熱的都市出走，到內洞國家森林遊樂區享受一個清涼的午後森林浴吧！",
+        "ADMIN_Name": "新北市烏來區",
+        "DEP_NAME": "新竹林區管理處",
+        "PHONE": "02-26617358",
+        "EMER_PHONE": "02-26617712(烏來工作站)",
+        "URL": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0200002"
+      }]
+    // 登山步道&訊號點
+    const coursesHiking = []
+
+
+    // index  裡面資料 => 抓取 data 裡面資料
+    // 使用 Object.keys(變數).length 得知這個 物件有多大
+    // for (let i = 0; i < Object.keys(value).length; i++) => 跑陣列的長度
+    // 原本無法讀出物件有多長 Object.keys 會將物件當成陣列，才能跑陣列長度
+    //  "RA_name": "太平山國家森林遊樂區" => keys : value
+    // const a = prompt('輸入內容')
+    // courses.forEach((allvalue, index, arr) => {
+    //   for (let i = 0; i < Object.keys(allvalue).length; i++) {
+    //     if (Object.values(allvalue)[i] === null) {
+    //       // Object.values(allvalue)[i] = 'true'
+    //       // console.log(typeof (Object.values(allvalue)[i]));
+    //       // object
+    //       // console.log(Object.values(allvalue)[i]);
+    //       // 顯示 null => 使用 Object.values 和 Object.keys 無法更改值，也無法改型別
+    //     } else {
+    //       const str = (Object.values(allvalue)[i]).toString()
+    //       if (str.includes(a)) {
+    //         // console.log(str.includes(a));
+    //         // console.log(str);
+    //         // console.log(a)
+    //       }
+    //     }
+
+    // allvalue => 全部值的名稱  [i] => 每一個項目的物件
+    // 使用者輸入的值 = courses [{ }] 裡面的值
+    // Object.values(allvalue)[i] 型別錯誤 => 強制轉換成字串 + .toString()
+    // console.log(typeof (Object.values(allvalue)[i]))
+    // const str = (Object.values(allvalue)[i]).toString()
+    // if (str.includes(a)) {
+    //   console.log(str.includes(a));
+    //   console.log(str);
+    //   console.log(a)
+    // }
+    //   }
+    // })
+
+    // -------------------- 正則表達式 複習 ------------------------------------------------------------
+
+    // .match(正則表達式)，回傳一個，除非正則表達式有設定 g 或分組
+    let strr = "Hello, welcome to the world of Javascript";
+    let strMatchJS = strr.match(/Javascript/i)
+    // console.log(strMatchJS) // 陣列 
+    // console.log(strMatchJS[0]) // => 這是陣列 ， typeof 會顯示 object ，陣列也是物件型態
+
+    let ae = [1, 2, 3]
+    // console.log(typeof (ae) + 'hihihi'); // 陣列 object
+
+
+    // .matchAll(正則表達式)，回傳多個，正則表達式必須設定 g
+    // 會得到 RegExpStringIterator {}
+    // 必須用迴圈或運算子取得資料
+    let strMatchAll = strr.matchAll(/Javascript/ig)
+    // console.log(strMatchAll) // RegExpStringIterator {} => 代表正則表達式有抓到  顯示 陣列 object
+
+    for (let match of strMatchAll) {
+      // console.log(match) // RegExpStringIterator {}
+    }
+
+
+    // .indexOf(文字, 開始位置)，找出開始位置後第幾個字出現搜尋文字
+    let strindex = strr.indexOf("Javascript");
+    // console.log(strindex) // 31 => 第 31 個字
+
+    // 取代文字
+    let xmas = "Xmas";
+    let xmasReplace = xmas.replace("Xmas", "Christmas");
+    let xmasReplaceRegex = xmas.replace(/xmas/ig, 'Christmas');
+    // console.log(xmasReplace)
+    // console.log(xmasReplaceRegex)
+    // g	全局搜索。
+    // i	不区分大小写搜索。
+
+    let email = "aaa@bbb.com"
+    let emailReplace = email.replace(/([A-Za-z].*)@([A-Za-z].*)\.com/g, "$1@$2.tw");
+    // console.log(emailReplace)
+
+    var re = new RegExp("ab+c");
+    // console.log(re)
+
+
+    // ---------------------- 測試資料 ------------------------------------------------------------------------------
+    // matches => 變數名稱
+    // .match(正則表達式)
+    // \s => 空白
+    // * => 0或多次
+    // + => 1或多次
+    // let text = '林 步道'
+    const text = prompt('輸入內容')
+    const matches = text.match(/[\u4e00-\u9fa5]+\s+國家森林遊樂區/g)  // 也可以加入 Object.values(allvalue)[i] 抓關鍵字
+    const matchesTwo = text.match(/[\u4e00-\u9fa5]+\s+步道/g)
+    console.log(matches)
+    console.log(matchesTwo)
+    if (matchesTwo) {
+      console.log('hi')
+    }
+    // text 如果符合正則表達式，matches 為正則表達式的結果['林 國家森林遊樂區']，放入 if 判斷 console.log 會顯示 hi
+    // 若是text是'林 國家森林遊樂區' => 不符合正則表達式結果(matches) ， matches 為 null，  matches進入 if 判斷不會過 (沒有內容)。
+    // let text = '1 國家森林遊樂區'
+    // const matches = text.match(/[\u4e00-\u9fa5]+\s+國家森林遊樂區/g)
+    // console.log(matches)
+    // if (matches) {
+    //   console.log('hi')
+    // }
+
+
+    // ----------------------  .trim() 移除文字前後空白 -------------------------------------------------
+
+    let str_test1 = '  Hello World  '
+
+    console.log(str_test1)
+    console.log(str_test1.trim())
+
+
+    // ----------------------  .split() 從字串中刪除空格 -------------------------------------------------
+
+    const str_test2 = 'The quick brown fox jumps over the lazy dog.'
+
+    console.log(str_test2)
+    // 顯示 The quick brown fox jumps over the lazy dog.
+    console.log(str_test2.split())
+    // 顯示  ['The quick brown fox jumps over the lazy dog.']
+
+    const words = str_test2.split(' ')
+    console.log(words[3]);
+    // expected output: "fox"
+
+    const chars = str_test2.split('')
+    console.log(chars[8]);
+    // expected output: "k"
+
+    const strCopy = str_test2.split()
+    console.log(strCopy);
+    // expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+    // ----------------------  正則表達式 從字串中刪除所有空格 -------------------------------------------------
+
+    const str_test3 = '   Hello World   '
+    console.log(str_test3.replace(/ /g,''))
+    // 顯示 HelloWorld
+
+    const str_test4 = '   Hello World   '
+    console.log(str_test4.replace(/\s/g,''))
+    // 顯示 HelloWorld
+
+
+    //  ----------------------  Split() 和 Join() 方法  -------------------------------------------------
+
+    // 使用空格作為分隔符拆分字符串，然後將其與空字符串重新連接在一起
+    const str_test5 = '   Hello World   '
+    console.log(str_test5.split(' ').join(''))
+    // 顯示 HelloWorld
+
+    // 從字符串中刪除所有空白字符，請使用 \s
+    const str_test6 = '   Hello World   '
+    console.log(str_test6.split(/\s+/).join(''))
+
+    //  資料: https://www.techiedelight.com/zh-tw/remove-whitespaces-string-javascript/
+    
+
+    // .filter() 可以過濾陣列後產生新的陣列
+    // true 代表保留，false 代表刪除
+    let numbers2 = [100,200,300,400];
+    numbers2 = numbers2.filter(num => {
+      return num > 200
+    })
+    console.log(numbers2)
+    // Array(2)
+    // 0: 300
+    // 1: 400
+    // length: 2
+
+    // ----------------------  測試 刪除使用者輸入字串裡面的文字  -------------------------------------------------
+    // 刪除陣列索引並加入值，新值可以不加 
+    // .splice(開始數字, 刪除數量, 新值1, 新值2...)
+    let fruits = ["Apple", "Banana", "Cherry"]
+    fruits.splice(1, 0, "Tomato")
+    console.log(fruits)
+    // Array(4)
+    // 0: "Apple"
+    // 1: "Tomato"
+    // 2: "Banana"
+    // 3: "Cherry"
+    // length: 4
+
+    
+    // 文字切割
+    // .substr(開始, 長度)
+    let greeting = "Hello my friend!"
+    let sub = greeting.substr(0, 5)
+    console.log(sub)
+
+    // .substring(開始位置, 結尾位置)
+    let sub2 = greeting.substring(6, 8)
+    console.log(sub2)
+
+    // .slice(開始位置, 結尾位置)
+    // 可以放負數，代表倒數
+    let sub3 = greeting.slice(-7, -1)
+    console.log(sub3)
+
+    let str_test7 = '關仔嶺碧雲寺水火同源登山步道'
+    // let sub666 = str_test7.slice(3, -6) // 顯示 第4 到 倒數第-7 之間的文字
+    let sub666 = str_test7.slice(0, -2) // 顯示 第1 到 倒數第3 之間的文字
+    console.log(sub666)
+
+  </script>
+</body>
+
+</html>

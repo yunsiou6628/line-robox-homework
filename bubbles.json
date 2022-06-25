@@ -3,7 +3,7 @@
     "type": "bubble",
     "hero": {
       "type": "image",
-      "url": "https://recreation.forest.gov.tw/Files/Forest/index/0300001.jpg",
+      "url": "https://recreation.forest.gov.tw/Files/Forest/index/0500001.jpg",
       "size": "full",
       "aspectRatio": "20:13",
       "aspectMode": "cover",
@@ -19,7 +19,7 @@
       "contents": [
         {
           "type": "text",
-          "text": "武陵國家森林遊樂區",
+          "text": "阿里山國家森林遊樂區",
           "wrap": true,
           "weight": "bold",
           "gravity": "center",
@@ -33,7 +33,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "台中市和平區武陵路3號",
+              "text": "605嘉義縣阿里山鄉中正村59號",
               "flex": 4,
               "size": "sm",
               "color": "#666666",
@@ -50,7 +50,7 @@
             },
             {
               "type": "text",
-              "text": "24小時開放(配合武陵農場)",
+              "text": "全年24小時開放",
               "flex": 4,
               "size": "sm",
               "color": "#666666",
@@ -68,7 +68,7 @@
               "action": {
                 "type": "uri",
                 "label": "➤ 點我進官網 ➤",
-                "uri": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0300001"
+                "uri": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0500001"
               }
             }
           ]
